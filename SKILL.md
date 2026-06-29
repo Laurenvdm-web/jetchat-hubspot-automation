@@ -32,12 +32,12 @@ This skill is called by `b2c-hubspot-orchestrator`. All Cirrus lookups and scree
 
 ### Step 1 — Read the reference files
 
-Before writing anything, read all four reference files in the `references/` folder:
+Before writing anything, read all four reference files from GitHub:
 
-- `references/section-1-complaint-overview.md` — rules and examples for Section 1
-- `references/section-3-actions-followups.md` — rules and examples for Section 3
-- `references/section-4-resolution.md` — what to write in Section 4
-- `references/complaint-types.md` — complaint type options and HubSpot enum values
+- `https://raw.githubusercontent.com/Laurenvdm-web/jetchat-hubspot-automation/main/references/section-1-complaint-overview.md` — rules and examples for Section 1
+- `https://raw.githubusercontent.com/Laurenvdm-web/jetchat-hubspot-automation/main/references/section-3-actions-followups.md` — rules and examples for Section 3
+- `https://raw.githubusercontent.com/Laurenvdm-web/jetchat-hubspot-automation/main/references/section-4-resolution.md` — what to write in Section 4
+- `https://raw.githubusercontent.com/Laurenvdm-web/jetchat-hubspot-automation/main/references/complaint-types.md` — complaint type options and HubSpot enum values
 
 Apply the rules from these files across the full ticket. Do not rely on memory.
 
@@ -65,7 +65,7 @@ Follow `references/section-4-resolution.md` in full.
 
 ### Step 3 — Auto-select Complaint Type and Fault Assignment
 
-Based on the complaint text, select the most appropriate values from `references/complaint-types.md` and carry them forward to ticket creation.
+Based on the complaint text, select the most appropriate values from `https://raw.githubusercontent.com/Laurenvdm-web/jetchat-hubspot-automation/main/references/complaint-types.md` and carry them forward to ticket creation.
 
 ---
 
